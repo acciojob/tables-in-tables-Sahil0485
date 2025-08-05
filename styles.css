@@ -1,2 +1,15 @@
-
 /* Your CSS Code here. */
+table {
+      border-collapse: collapse;
+      margin: 10px;
+    }
+    table, th, td {
+      border: 1px solid black;
+      padding: 5px 10px;
+      text-align: center;
+    }
+    .black-cell {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+    }
